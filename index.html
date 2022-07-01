@@ -9,20 +9,35 @@
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./dist/app.css">
 </head>
-<body>
+<body class="bg-skin-body overflow-hidden	font-Outfit">
 
-  Improve your front-end skills by building projects
+  <main class="w-screen h-screen flex grid justify-items-center content-center">
+    <!-- Card -->
+    <div class="w-72 rounded-md bg-skin-card p-3">
+      <!-- QR -->
+      <img src="./images/image-qr-code.png" class="rounded-md" alt="QR CODE">
+      
+      <!-- footer -->
+      <div class="p-4 text-center">
+        <h1 class="font-bold  mb-2">Improve your front-end skills by building projects</h1>
+        <span class="text-skin-grayishblue text-sm">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </span>
+      </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Tomas Emanuel Ramirez Abarca</a>.
   </div>
+
 </body>
 </html>
